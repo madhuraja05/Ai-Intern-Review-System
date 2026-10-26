@@ -1,0 +1,14 @@
+{
+  "name": "ai-intern-review-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Intern Task Allocation, Review, Feedback, Email Notification & Lifecycle Automation System",
+  "scripts": {
+    "test": "cd server && npm test",
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "start": "node server/server.js"
+  },
+  "keywords": ["ai", "internship", "task-management", "review-automation", "sqlite", "nodemailer"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "intern-review-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for AI-Powered Intern Task Allocation and Review Automation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "sql.js": "^1.10.3"
+  }
+}
